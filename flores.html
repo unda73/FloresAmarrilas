@@ -324,7 +324,7 @@
       </div>
     </div>
 <audio id="miAudio" autoplay loop muted style="display:none;">
-  <source src="Ella.mp3" type="audio/mpeg">
+  <source src="audio/Ella.mp3" type="audio/mpeg">
 </audio>
 
 <script>
@@ -333,6 +333,7 @@
     var audio = document.getElementById("miAudio");
     audio.muted = false;
     audio.play();
+    audio.volume = 0.2; // 20% del volumen máximo
   });
 </script>
 
